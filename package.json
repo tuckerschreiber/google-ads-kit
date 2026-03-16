@@ -1,0 +1,51 @@
+{
+  "name": "google-ads-kit",
+  "version": "0.1.0",
+  "description": "REST-first TypeScript SDK for the Google Ads API. No gRPC, no native bindings — works everywhere.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "google-ads",
+    "google-ads-api",
+    "google-ads-sdk",
+    "adwords",
+    "typescript",
+    "rest-api",
+    "serverless",
+    "edge"
+  ],
+  "author": "Fullrun",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fullrun-ai/google-ads-kit"
+  },
+  "homepage": "https://github.com/fullrun-ai/google-ads-kit#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^3.0.0"
+  }
+}

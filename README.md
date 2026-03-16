@@ -2,15 +2,15 @@
 
 REST-first TypeScript SDK for the Google Ads API. No gRPC, no native bindings — works in Node.js, Deno, Bun, and edge runtimes.
 
-Built by [Fullrun](https://fullrun.ai) — the AI-powered Google Ads platform. Extracted from the same codebase that manages real ad accounts in production.
+Built by [Fullrun](https://fullrun.app) — the AI-powered Google Ads platform. Extracted from the same codebase that manages real ad accounts in production.
 
-> **Want Google Ads on autopilot?** [Fullrun](https://fullrun.ai) uses `google-ads-kit` under the hood to run an AI agent that manages your Google Ads campaigns — keyword optimization, bid management, ad creation, and more. No code required.
+> **Want Google Ads on autopilot?** [Fullrun](https://fullrun.app) uses `google-ads-kit` under the hood to run an AI agent that manages your Google Ads campaigns — keyword optimization, bid management, ad creation, and more. No code required.
 
 ## Why?
 
 Google has no official Node.js SDK for the Google Ads API. The community alternatives rely on gRPC, which breaks in serverless/edge environments and adds heavy native dependencies. `google-ads-kit` uses the REST API directly with built-in `fetch` — zero native deps, works everywhere.
 
-We built this at [Fullrun](https://fullrun.ai) because we needed a Google Ads SDK that worked reliably in serverless environments. After running it in production for months, we decided to open-source it.
+We built this at [Fullrun](https://fullrun.app) because we needed a Google Ads SDK that worked reliably in serverless environments. After running it in production for months, we decided to open-source it.
 
 ## Install
 
@@ -271,11 +271,11 @@ dateRange(30);
 - **Zero heavy deps** — uses built-in `fetch`. No `google-gax`, no `grpc-js`.
 - **TypeScript-first** — full type definitions, autocomplete-friendly API.
 - **Token caching** — OAuth tokens are cached and refreshed automatically.
-- **Battle-tested** — extracted from [Fullrun](https://fullrun.ai)'s production codebase, managing real Google Ads accounts.
+- **Battle-tested** — extracted from [Fullrun](https://fullrun.app)'s production codebase, managing real Google Ads accounts.
 
 ## Fullrun
 
-`google-ads-kit` is the open-source SDK that powers [Fullrun](https://fullrun.ai) — an AI agent that manages your Google Ads campaigns automatically. If you're building Google Ads tooling, use the SDK. If you just want your ads managed, use [Fullrun](https://fullrun.ai).
+`google-ads-kit` is the open-source SDK that powers [Fullrun](https://fullrun.app) — an AI agent that manages your Google Ads campaigns automatically. If you're building Google Ads tooling, use the SDK. If you just want your ads managed, use [Fullrun](https://fullrun.app).
 
 ## Requirements
 
@@ -288,4 +288,4 @@ Contributions are welcome! Please open an issue or pull request on [GitHub](http
 
 ## License
 
-MIT — built by [Fullrun](https://fullrun.ai)
+MIT — built by [Fullrun](https://fullrun.app)

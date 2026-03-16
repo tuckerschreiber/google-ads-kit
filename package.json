@@ -1,7 +1,7 @@
 {
   "name": "google-ads-kit",
-  "version": "0.1.0",
-  "description": "REST-first TypeScript SDK for the Google Ads API. No gRPC, no native bindings — works everywhere.",
+  "version": "0.1.1",
+  "description": "REST-first TypeScript SDK for the Google Ads API by Fullrun. No gRPC, no native bindings — works everywhere.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -31,9 +31,10 @@
     "typescript",
     "rest-api",
     "serverless",
-    "edge"
+    "edge",
+    "fullrun"
   ],
-  "author": "Fullrun",
+  "author": "Fullrun (https://fullrun.ai)",
   "license": "MIT",
   "repository": {
     "type": "git",
